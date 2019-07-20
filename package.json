@@ -1,20 +1,25 @@
 {
-	"name": "starter-npm-package-typescript",
+	"name": "usefire",
 	"license": "MIT",
 	"version": "1.0.0",
 	"author": "rioam2",
-	"homepage": "https://www.npmjs.com/package/starter-npm-package-typescript",
-	"description": "TODO:",
+	"homepage": "https://www.npmjs.com/package/usefire",
+	"description": "⚓ Useful React Hooks for quick and easy Firebase/Firestore integration",
 	"main": "./dist/src/index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/rioam2/starter-npm-package-typescript.git"
+		"url": "git+https://github.com/rioam2/useFire.git"
 	},
 	"bugs": {
-		"url": "https://github.com/rioam2/starter-npm-package-typescript/issues"
+		"url": "https://github.com/rioam2/useFire/issues"
 	},
 	"keywords": [
-		"TODO:"
+		"react-hook",
+		"firebase",
+		"firestore",
+		"react",
+		"real-time",
+		"database"
 	],
 	"scripts": {
 		"build": "rm -rf ./dist && tsc",
