@@ -1,69 +1,73 @@
 {
-	"name": "usefire",
-	"license": "MIT",
-	"version": "1.0.0",
-	"author": "rioam2",
-	"homepage": "https://www.npmjs.com/package/usefire",
-	"description": "⚓ Useful React Hooks for quick and easy Firebase/Firestore integration",
-	"main": "./dist/src/index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/rioam2/useFire.git"
-	},
-	"bugs": {
-		"url": "https://github.com/rioam2/useFire/issues"
-	},
-	"keywords": [
-		"react-hook",
-		"firebase",
-		"firestore",
-		"react",
-		"real-time",
-		"database"
-	],
-	"scripts": {
-		"build": "rm -rf ./dist && tsc",
-		"test": "nyc mocha",
-		"watch": "mocha --watch",
-		"coverage": "nyc report --reporter=text-lcov | coveralls",
-		"prepublish": "yarn build"
-	},
-	"files": [
-		"dist/**"
-	],
-	"husky": {
-		"hooks": {
-			"pre-commit": "[ ! -f initialize.sh ] || initialize.sh && yarn test && yarn embedme README.md"
-		}
-	},
-	"nyc": {
-		"include": [
-			"src/**/*.ts"
-		],
-		"extension": [
-			".ts"
-		],
-		"require": [
-			"ts-node/register"
-		],
-		"reporter": [
-			"text"
-		],
-		"sourceMap": true,
-		"instrument": true
-	},
-	"devDependencies": {
-		"@types/chai": "^4.1.7",
-		"@types/mocha": "^5.2.6",
-		"chai": "^4.2.0",
-		"coveralls": "^3.0.3",
-		"embedme": "^1.15.0",
-		"husky": "^3.0.1",
-		"mocha": "^6.0.2",
-		"nyc": "^13.3.0",
-		"source-map-support": "^0.5.10",
-		"ts-node": "^8.0.2",
-		"tslint": "^5.18.0",
-		"typescript": "^3.5.3"
-	}
+    "name": "usefire",
+    "license": "MIT",
+    "version": "1.1.1",
+    "author": "rioam2",
+    "homepage": "https://www.npmjs.com/package/usefire",
+    "description": "⚓ Useful React Hooks for quick and easy Firebase/Firestore integration",
+    "main": "dist/src/index.js",
+    "typings": "dist/src/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rioam2/useFire.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rioam2/useFire/issues"
+    },
+    "keywords": [
+        "react-hook",
+        "firebase",
+        "firestore",
+        "react",
+        "real-time",
+        "database"
+    ],
+    "scripts": {
+        "build": "rm -rf ./dist && tsc",
+        "test": "nyc mocha",
+        "watch": "mocha --watch",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "prepublishOnly": "yarn build"
+    },
+    "files": [
+        "dist/**"
+    ],
+    "husky": {
+        "hooks": {
+            "pre-commit": "[ ! -f initialize.sh ] || initialize.sh && yarn test && yarn embedme README.md"
+        }
+    },
+    "nyc": {
+        "include": [
+            "src/**/*.ts"
+        ],
+        "extension": [
+            ".ts"
+        ],
+        "require": [
+            "ts-node/register"
+        ],
+        "reporter": [
+            "text"
+        ],
+        "sourceMap": true,
+        "instrument": true
+    },
+    "devDependencies": {
+        "@types/chai": "^4.1.7",
+        "@types/mocha": "^5.2.6",
+        "@types/react": "^16.8.23",
+        "chai": "^4.2.0",
+        "coveralls": "^3.0.3",
+        "embedme": "^1.15.0",
+        "firebase": "^6.3.1",
+        "husky": "^3.0.1",
+        "mocha": "^6.0.2",
+        "nyc": "^13.3.0",
+        "react": "^16.8.6",
+        "source-map-support": "^0.5.10",
+        "ts-node": "^8.0.2",
+        "tslint": "^5.18.0",
+        "typescript": "^3.5.3"
+    }
 }
