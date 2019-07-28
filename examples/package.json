@@ -1,0 +1,18 @@
+{
+    "name": "usefire-examples",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "firebase": "^6.3.3",
+        "next": "^9.0.2",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "usefire": "^1.1.1"
+    }
+}
