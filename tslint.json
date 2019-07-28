@@ -1,6 +1,14 @@
 {
-  "extends": ["tslint:latest"],
-  "rules": {
-    "no-implicit-dependencies": [true, "dev"]
-  }
+    "extends": ["tslint:latest"],
+    "rules": {
+        "no-implicit-dependencies": [true, "dev"],
+        "interface-name": false,
+        "indent": false,
+        "quotemark": false,
+        "no-submodule-imports": false,
+        "trailing-comma": false,
+        "max-line-length": [true, 110],
+        "no-namespace": false,
+        "no-console": false
+    }
 }
