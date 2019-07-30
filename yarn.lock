@@ -819,9 +819,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 embedme@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/embedme/-/embedme-1.15.0.tgz#ec86a84c1926e3be01532777c2f2783c1a931187"
-  integrity sha512-GCRU9Wn1upmYVqu0sy9YAShqO5ytfhm8CcLTrf6X4lVwdFDReihyy4lRxEcb6tFP1PbDfxWnC2XdlGrsmy2T8A==
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/embedme/-/embedme-1.16.0.tgz#7a545e80ba7e4109b431174d7516ed577891ef57"
+  integrity sha512-W3mF1QGO4iXfW0Jfxmy3myDs2TzJCPgt/eYGselFz2Kh6G3fAkCRWZF4W9ffgA7lO1CORdlUTMr/bkJ+09j2qQ==
   dependencies:
     chalk "~2.4.2"
     commander "~2.20.0"
