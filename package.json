@@ -24,7 +24,7 @@
     ],
     "scripts": {
         "build": "rm -rf ./dist && tsc",
-        "test": "nyc mocha",
+        "test": "nyc mocha --exit",
         "watch": "mocha --watch",
         "coverage": "nyc report --reporter=text-lcov | coveralls",
         "prepublishOnly": "yarn build"
@@ -54,17 +54,21 @@
         "instrument": true
     },
     "devDependencies": {
+        "@testing-library/react-hooks": "^1.1.0",
         "@types/chai": "^4.1.7",
+        "@types/dotenv": "^6.1.1",
         "@types/mocha": "^5.2.6",
         "@types/react": "^16.8.23",
         "chai": "^4.2.0",
         "coveralls": "^3.0.3",
+        "dotenv": "^8.0.0",
         "embedme": "^1.15.0",
         "firebase": "^6.3.1",
         "husky": "^3.0.1",
         "mocha": "^6.0.2",
         "nyc": "^14.1.1",
         "react": "^16.8.6",
+        "react-test-renderer": "16.8.6",
         "source-map-support": "^0.5.10",
         "ts-node": "^8.0.2",
         "tslint": "^5.18.0",
