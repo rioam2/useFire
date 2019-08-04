@@ -1,12 +1,12 @@
 {
     "name": "usefire",
     "license": "MIT",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "author": "rioam2",
     "homepage": "https://www.npmjs.com/package/usefire",
     "description": "⚓ Useful React Hooks for quick and easy Firebase/Firestore integration",
     "main": "dist/index.js",
-    "typings": "dist/src/index.d.ts",
+    "typings": "dist/index.d.ts",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/rioam2/useFire.git"
@@ -28,7 +28,7 @@
         "test": "nyc mocha --exit",
         "watch": "mocha --watch",
         "coverage": "nyc report --reporter=text-lcov | coveralls",
-        "prepublishOnly": "yarn build"
+        "prepublishOnly": "yarn test"
     },
     "files": [
         "dist/**"
