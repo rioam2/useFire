@@ -19,7 +19,8 @@ import {
     WRITABLE_DOCUMENT_PATH,
 } from './util';
 
-describe('useFirestore', () => {
+describe('useFirestore', function() {
+    this.timeout(0);
     const { useFireauth, useFirestore } = useFire(React, TEST_FIREBASE_APP);
     const hooksToUnmount: any[] = [];
 

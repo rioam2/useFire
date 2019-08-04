@@ -11,7 +11,8 @@ import {
     TEST_PASSWORD,
 } from './util';
 
-describe('useFireauth', () => {
+describe('useFireauth', function() {
+    this.timeout(0);
     const { useFireauth } = useFire(React, TEST_FIREBASE_APP);
     const hooksToUnmount: any[] = [];
 
