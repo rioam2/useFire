@@ -1,10 +1,12 @@
-import * as firebase from 'firebase/app';
 import 'firebase/auth';
+
+import * as firebase from 'firebase/app';
+
 import { React } from './util';
 
 export function useFireauth({ useState, useEffect }: React, app: firebase.app.App, ...args: any[]) {
     const [user, setUser] = useState(app.auth().currentUser);
-    const [isLoading, setIsLoading] = useState(!app.auth().currentUser);
+    const [isLoading, setIsLoading] = useState(!user);
 
     /** When authentication status changes, update state accordingly */
     useEffect(() => {
@@ -19,6 +21,7 @@ export function useFireauth({ useState, useEffect }: React, app: firebase.app.Ap
     return {
         isLoading,
         login: {
+            anonymously: () => app.auth().signInAnonymously(),
             withCredential: (credential: firebase.auth.AuthCredential) =>
                 app.auth().signInWithCredential(credential),
             withEmailAndPassword: (email: string, password: string) =>
