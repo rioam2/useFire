@@ -1,7 +1,7 @@
 {
     "name": "usefire",
     "license": "MIT",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "author": "rioam2",
     "homepage": "https://www.npmjs.com/package/usefire",
     "description": "⚓ Useful React Hooks for quick and easy Firebase/Firestore integration",
