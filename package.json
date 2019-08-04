@@ -24,6 +24,7 @@
     ],
     "scripts": {
         "build": "rm -rf ./dist && tsc",
+        "pretest": "yarn build",
         "test": "nyc mocha --exit",
         "watch": "mocha --watch",
         "coverage": "nyc report --reporter=text-lcov | coveralls",
