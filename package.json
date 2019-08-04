@@ -5,7 +5,7 @@
     "author": "rioam2",
     "homepage": "https://www.npmjs.com/package/usefire",
     "description": "⚓ Useful React Hooks for quick and easy Firebase/Firestore integration",
-    "main": "dist/src/index.js",
+    "main": "dist/index.js",
     "typings": "dist/src/index.d.ts",
     "repository": {
         "type": "git",

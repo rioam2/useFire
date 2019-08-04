@@ -10,5 +10,5 @@
         "module": "commonjs",
         "skipLibCheck": true
     },
-    "exclude": ["node_modules", "dist", "test", "examples"]
+    "include": ["src"]
 }
