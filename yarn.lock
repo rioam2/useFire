@@ -379,15 +379,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.8.22":
-  version "16.8.24"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.24.tgz#8d1ea1fcbfa214220da3d3c04e506f1077b0deac"
-  integrity sha512-VpFHUoD37YNY2+lr/+c7qL/tZsIU/bKuskUF3tmGUArbxIcQdb5j3zvo4cuuzu2A6UaVmVn7sJ4PgWYNFEBGzg==
-  dependencies:
-    "@types/prop-types" "*"
-    csstype "^2.2.0"
-
-"@types/react@^16.8.23":
+"@types/react@*", "@types/react@^16.8.22", "@types/react@^16.8.23":
   version "16.8.24"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.24.tgz#8d1ea1fcbfa214220da3d3c04e506f1077b0deac"
   integrity sha512-VpFHUoD37YNY2+lr/+c7qL/tZsIU/bKuskUF3tmGUArbxIcQdb5j3zvo4cuuzu2A6UaVmVn7sJ4PgWYNFEBGzg==
@@ -498,6 +490,11 @@ assertion-error@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/assertion-error/-/assertion-error-1.1.0.tgz#e60b6b0e8f301bd97e5375215bda406c85118c0b"
   integrity sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==
+
+async@^1.3.0:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
+  integrity sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -882,13 +879,14 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 embedme@^1.15.0:
-  version "1.16.0"
-  resolved "https://registry.yarnpkg.com/embedme/-/embedme-1.16.0.tgz#7a545e80ba7e4109b431174d7516ed577891ef57"
-  integrity sha512-W3mF1QGO4iXfW0Jfxmy3myDs2TzJCPgt/eYGselFz2Kh6G3fAkCRWZF4W9ffgA7lO1CORdlUTMr/bkJ+09j2qQ==
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/embedme/-/embedme-1.17.0.tgz#d3d49b6c22ab429830a5688ae96384d4baf3c8a9"
+  integrity sha512-tP3aMsddzqLo6mbtiunm9EGoL1LXnB24CWXZYpyPT+LATHK5k0n6d/4L4Nwgs6Bs4ytYzVvvCfJyzPGEGVft9w==
   dependencies:
     chalk "~2.4.2"
     commander "~2.20.0"
     gitignore-parser "~0.0.2"
+    node-glob "~1.2.0"
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -1142,6 +1140,11 @@ gitignore-parser@~0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/gitignore-parser/-/gitignore-parser-0.0.2.tgz#f61259b985dd91414b9a7168faef9171c2eec5df"
   integrity sha1-9hJZuYXdkUFLmnFo+u+RccLuxd8=
+
+glob-to-regexp@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.1.0.tgz#e0369d426578fd456d47dc23b09de05c1da9ea5d"
+  integrity sha1-4DadQmV4/UVtR9wjsJ3gXB2p6l0=
 
 glob@7.1.3:
   version "7.1.3"
@@ -1829,6 +1832,14 @@ node-fetch@^1.0.1:
   dependencies:
     encoding "^0.1.11"
     is-stream "^1.0.1"
+
+node-glob@~1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/node-glob/-/node-glob-1.2.0.tgz#5240ffedefc6d663ce8515e5796a4d47a750c0d5"
+  integrity sha1-UkD/7e/G1mPOhRXleWpNR6dQwNU=
+  dependencies:
+    async "^1.3.0"
+    glob-to-regexp "^0.1.0"
 
 node-pre-gyp@^0.13.0:
   version "0.13.0"
