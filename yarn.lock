@@ -57,10 +57,10 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.5.5.tgz#02f077ac8817d3df4a832ef59de67565e71cca4b"
   integrity sha512-E5BN68cqR7dhKan1SfqgPGhQ178bkVKpXTPEXnFJBrEt8/DKRZlybmy+IgYLTeN7tp1R5Ccmbm2rBk17sHYU3g==
 
-"@babel/runtime@^7.4.2":
-  version "7.5.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
-  integrity sha512-28QvEGyQyNkB0/m2B4FU7IEZGK2NUrcMtT6BZEFALTguLk+AUT6ofsHtPk5QyjAdUkpMJ+/Em+quwz4HOt30AQ==
+"@babel/runtime@^7.5.4":
+  version "7.6.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.2.tgz#c3d6e41b304ef10dcf13777a33e7694ec4a9a6dd"
+  integrity sha512-EXxN64agfUqqIGeEjI5dL5z0Sw0ZwWo1mLTi4mQowCZ42O59b7DRpZAnTC6OqdF28wMBMFKNb/4uFGrVaigSpg==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -340,14 +340,14 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@testing-library/react-hooks@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/react-hooks/-/react-hooks-1.1.0.tgz#14b6b5c7c3d0e2cb3e55e9cbb248b44321641c64"
-  integrity sha512-piE/ceQoNf134FFVXBABDbttBJ8eLPD4eg7zIciVJv92RyvoIsBHCvvG8Vd4IG5pyuWYrkLsZTO8ucZBwa4twA==
+"@testing-library/react-hooks@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/react-hooks/-/react-hooks-2.0.1.tgz#1c3ec40882d0830df3078ddae0056fdf7366c81d"
+  integrity sha512-MLTvWX7/csq/uQzP4WJntGz0QJDq6H4EzjV0VTL5YJE7KBZbaQ9DGT0IbtjuB33L4R4YKZ55rGZQ5eL+WiZtQA==
   dependencies:
-    "@babel/runtime" "^7.4.2"
-    "@types/react" "^16.8.22"
-    "@types/react-test-renderer" "^16.8.2"
+    "@babel/runtime" "^7.5.4"
+    "@types/react" ">=16.9.0"
+    "@types/react-test-renderer" ">=16.9.0"
 
 "@types/bytebuffer@^5.0.40":
   version "5.0.40"
@@ -399,14 +399,14 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.1.tgz#f1a11e7babb0c3cad68100be381d1e064c68f1f6"
   integrity sha512-CFzn9idOEpHrgdw8JsoTkaDDyRWk1jrzIV8djzcgpq0y9tG4B4lFT+Nxh52DVpDXV+n4+NPNv7M1Dj5uMp6XFg==
 
-"@types/react-test-renderer@^16.8.2":
-  version "16.8.3"
-  resolved "https://registry.yarnpkg.com/@types/react-test-renderer/-/react-test-renderer-16.8.3.tgz#b6ca14d5fe4c742fd6d68ef42d45e3b5c6dd470a"
-  integrity sha512-vEEYh6gFk3jkPHqRe7N5CxWA+yb92hCZxNyhq/1Wj3mClqVWLJYakJDMp3iFmntCgEq96m68N9Oad3wOHm+pdQ==
+"@types/react-test-renderer@>=16.9.0":
+  version "16.9.0"
+  resolved "https://registry.yarnpkg.com/@types/react-test-renderer/-/react-test-renderer-16.9.0.tgz#d60f530ecf4c906721511603cca711b4fa830d41"
+  integrity sha512-bN5EyjtuTY35xX7N5j0KP1vg5MpUXHpFTX6tGsqkNOthjNvet4VQOYRxFh+NT5cDSJrATmAFK9NLeYZ4mp/o0Q==
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.8.22", "@types/react@^16.8.23":
+"@types/react@*", "@types/react@>=16.9.0", "@types/react@^16.8.23":
   version "16.9.4"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.4.tgz#de8cf5e5e2838659fb78fa93181078469eeb19fc"
   integrity sha512-ItGNmJvQ0IvWt8rbk5PLdpdQhvBVxAaXI9hDlx7UMd8Ie1iMIuwMNiKeTfmVN517CdplpyXvA22X4zm4jGGZnw==
