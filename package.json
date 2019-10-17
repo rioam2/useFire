@@ -55,7 +55,7 @@
         "instrument": true
     },
     "devDependencies": {
-        "@testing-library/react-hooks": "^2.0.1",
+        "@testing-library/react-hooks": "^3.0.0",
         "@types/chai": "^4.1.7",
         "@types/dotenv": "^6.1.1",
         "@types/mocha": "^5.2.6",
